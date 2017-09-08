@@ -1,11 +1,14 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . 'nemendur/palinalif/skolahysing.com/db/dbConnect.php';
+
 try
 {
-    $sql = "DELETE FROM categories WHERE id = :id";
+    $sql = "DELETE FROM categories WHERE id = 1";
+
     $s = $pdo->prepare($sql);
-    $s->bindValue(':id', $_POST['id']);
     $s->execute();
+    exit();
+    $s->bindValue(':id', $_POST['id']);
 }
 
 catch (PDOException $e)

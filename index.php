@@ -1,0 +1,1 @@
+<a href="authors">CLICKE ME</a><a href="categories">FÚK JÚ</a>

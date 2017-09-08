@@ -11,7 +11,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/nemendur/palinalif/skolahysing.com/ca
     <link rel="stylesheet" type="text/css" href="../css/background.css">
 </head>
 
-<body>
+<body id = "categorybody">
     <h1 class = "header">Manage Categories</h1>
     <p class = ""><a href = "worker.php?add">Add new category</a></p>
 
