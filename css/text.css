@@ -1,4 +1,28 @@
 h1 {
     text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Verdana";
+}
+
+#authorheader{
+    border: dotted 5px #6dcbc3;
+}
+
+
+#categoryheader {
     border: dotted 5px yellowgreen;
+}
+
+li {
+    font-family: "Arial Narrow";
+    margin: 10px;
+}
+
+#authorli {
+    color: #18504d;
+}
+
+#categoryli {
+    color: #2d633f;
 }

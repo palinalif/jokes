@@ -3,6 +3,6 @@
         <title>Villuskilaboð</title>
     </head>
     <body>
-        <p><?php echo $error ; ?></p>
-    </body>
+        <p><?php echo $error;?></p>
+</body>
 </html>

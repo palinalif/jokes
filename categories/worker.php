@@ -15,7 +15,6 @@ if (isset($_GET['addform'])){
     exit();
 }
 if (isset($_POST['action']) and  $_POST['action'] == 'Edit'){
-
     include_once $_SERVER['DOCUMENT_ROOT'] . '/nemendur/palinalif/skolahysing.com/db/getCategoryWhereId.php';
     $pageTitle = 'Edit Category';
     $action = 'editform';
